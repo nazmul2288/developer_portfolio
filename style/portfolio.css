@@ -13,7 +13,7 @@ nav{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   margin: 50px 200px;
+   margin: 50px 200px; 
     
 }
 .nav-class{
@@ -35,6 +35,12 @@ nav{
     color: #FD6E0A;
 
 }
+/* Header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
 
 /* text decoration */
 
@@ -52,5 +58,29 @@ nav ul{
     display: flex;
     align-items: center;
 
+}
+
+/* banner style */
+.banner-top{
+     font-size: 45px;
+     font-weight: 600px;
+}
+.banner-tittle{
+    font-weight: 800px;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+}
+.banner-dp{
+    width: 800px;
+}
+.banner{
+    display: flex ;
+    justify-content: space-between;
+    margin: 0 30px 0 230px ;
+}
+.banner-content{
+    border: 20px ;
 }
 
